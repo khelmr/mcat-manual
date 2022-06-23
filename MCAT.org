@@ -1,0 +1,677 @@
+#+title: MCAT Manual
+#+LATEX_HEADER: \usepackage{mhchem}
+
+* Biological and Biochemical Foundations of Living Systems
+** Foundational Concept 1: Biomolecules have unique properties that determine how they contribute to the structure and function of cells and how they participate in the processes necessary to maintain life.
+*** 1A: Structure and function of proteins and their constituent amino acids
+**** Amino Acids :BC:OC:ATTACH:
+:PROPERTIES:
+:ID:       20f15c94-83ec-4f0e-8394-a7ca45bd3d7d
+:END:
+***** Description
+*Amino acids* are the fundamental building blocks of proteins.
+#+caption: Amino Acid Structure
+[[attachment:_20220613_235530screenshot.png]]
+An amino acid is made up of three parts:
+- An amino group (--NH_{2})
+- A carboxyl group (--COOH)
+- A *side chain* or *R group*
+
+The carbon atom between the amine and carboxyl group is called the *\alpha-carbon*; it is also the carbon where the R group is attached to the amino acids.
+
+/Amino acids' side chain determines their property and function/
+
+****** Absolute configuration at the \alpha position
+The \alpha carbon is a chiral center of the amino acid. All amino acids are chiral /except for glycine/ (due to its \alpha carbon having two hydrogen atoms attached to it).
+
+Naturally occuring amino acids in eukaryotes occur in the L relative configuration. Additionally, most amino acids have a S absolute configuration /except for cysteine/ which has an R configuration due to the thiol (--CH_{2}SH) R group it has.
+
+****** Amino acids as dipolar ions
+Because amino acids have an acidic carboxyl group and a basic amino group (making them ionizable groups), they are *amphoteric*, able to function as an acid or base depending on the environmental pH.
+
+- If $\mathrm{pH} < \mathrm{pK_a}$, most of the species will be protonated. This is because the high proton concentration drives the protonation of the ionizaable groups, creating a /posjitive charge/.
+- If $\mathrm{pH} > \mathrm{pK_a}$, most of the species will be depronated. This is because the low proton concentration drives the deprotonation of thte ionizable groups, creating a /negative charge/.
+- At physiological pH (~7.4), the carboxyl group is unprotonated creating a negative charge and the amine group is protonated creating a positive charge. This neutral form of the amino acid with equal opposite charges is called a *zwitterion*.
+
+Because there are two ionizable groups on an amino acids, /amino acids have at least two pK_{a} values/. The first pK_{a_{1}} value corresponding to the carboxyl group has a value of around 2, and the second pK_{a_{2}} corresponding to the amine group has a value between 9 and 10.
+****** Classifications :ATTACH:
+Amino acids' R groups can be classified into the following groups:
+- Nonpolar
+- Polar
+- Aromatic
+- Acidic
+- Basic
+- Hydrophillic
+- Hydrophobic
+Note that some of these classifications are not necessarily mutually exclusive between one another.
+
+Below is a table of amino acids and their classification.
+| *Name*        | *Symbol* | *Abbreviation* | *Structure*                               | *Classification*                |
+|---------------+----------+----------------+-------------------------------------------+---------------------------------|
+| Alanine       | A        | Ala            | [[attachment:_20220614_164638screenshot.png]] | Nonpolar, Hydrophobic           |
+| Cysteine      | C        | Cys            | [[attachment:_20220614_165846screenshot.png]] | Polar                           |
+| Aspartate     | D        | Asp            | [[attachment:_20220614_165922screenshot.png]] | Acidic, Hydrophillic            |
+| Glutamate     | E        | Glu            | [[attachment:_20220614_165953screenshot.png]] | Acidic, Hydrophillic            |
+| Phenylalanine | F        | Phe            | [[attachment:_20220614_170036screenshot.png]] | Nonpolar, Aromatic, Hydrophobic |
+| Glycine       | G        | Gly            | [[attachment:_20220614_170105screenshot.png]] | Nonpolar                        |
+| Histidine     | H        | His            | [[attachment:_20220614_170428screenshot.png]] | Basic, Hydrophillic             |
+| Isoleucine    | I        | Ile            | [[attachment:_20220614_170504screenshot.png]] | Nonpolar, Hydrophobic           |
+| Lysine        | K        | Lys            | [[attachment:_20220614_170542screenshot.png]] | Basic, Hydrophillic             |
+| Leucine       | L        | Leu            | [[attachment:_20220614_170615screenshot.png]] | Nonpolar, Hydrophobic           |
+| Methionine    | M        | Met            | [[attachment:_20220614_170658screenshot.png]] | Polar                           |
+| Asparagine    | N        | Asn            | [[attachment:_20220614_170719screenshot.png]] | Polar, Hydrophillic             |
+| Proline       | P        | Pro            | [[attachment:_20220614_170746screenshot.png]] | Polar                           |
+| Glutamine     | Q        | Gln            | [[attachment:_20220614_170803screenshot.png]] | Polar, Hydrophillic             |
+| Arginine      | R        | Arg            | [[attachment:_20220614_170840screenshot.png]] | Basic, Hydrophillic             |
+| Serine        | S        | Ser            | [[attachment:_20220614_170917screenshot.png]] | Polar                           |
+| Threonine     | T        | Thr            | [[attachment:_20220614_170933screenshot.png]] | Polar                           |
+| Valine        | V        | Val            | [[attachment:_20220614_170944screenshot.png]] | Nonpolar, Hydrophobic           |
+| Tryptophan    | W        | Trp            | [[attachment:_20220614_170958screenshot.png]] | Nonpolar, Aromatic              |
+| Tyrosine      | Y        | Tyr            | [[attachment:_20220614_171010screenshot.png]] | Polar, Aromatic                 |
+
+***** Reactions
+****** Sulfur Linkage :ATTACH:
+
+[[attachment:_20220614_171843screenshot.png]]
+
+*Disulfide linkage* is a chemical reaction that can occur between two thiol groups. This is an oxidation reaction creates a covalent bond between the sulfur atoms of the thiol group and release two protons and electrons in the process. This covalent bond is also called a *disulfide bridge*. These disulfide bridges play critical roles in the stability of tertiary protein structure stability, produced by the interactions between cysteine amino acids within the same peptide chain.
+
+
+****** Peptide Linkage :ATTACH:
+
+[[attachment:_20220614_172159screenshot.png]]
+*Peptide linkage* is a type of condensation reaction between two amino acids. This reaction occurs as a result between interaction between the hydroxide on the carboxyl group of one amino acid and an amine hydrogen on another amino acid. The result of this interaction leads to the loss of those atoms in the form of a water molecule and the formation of a covalent bond between the carbon of the former carboxyl group and the nitrogen of the former amine group. This covalent bond is also called a *peptide bond*. Due to resonance stabilization of the peptide bond, this makes the bond relatively unreactive, making it effective at stabilizing primary structure of the polypeptide chain.
+
+****** Hydrolysis :ATTACH:
+
+[[attachment:_20220614_173028screenshot.png]]
+
+*Hydrolysis* is the breakdown of peptides through the addition of water. This reaction is done to extract individual amino acids to be used for other purposes such as for nutrient extraction or recycling.
+
+**** Protein Structure :BIO:BC:OC:
+***** Structure
+****** Primary Structure of Proteins
+The *primary structure* of a protein is the linear sequence of amino acids that make up the protein. The convention for reading the order of amino acids of a peptide chain is from the N-terminus or amine end to the C-terminus or carboxyl end. A protein's primary structure is maintained by peptide bonds. Because the primary structure is the sequence of amino acids and their interactions determine the structure of the overall protein, /a protein's primary structure determines is higher order structure/.
+****** Secondary Structure of Proteins :ATTACH:
+:PROPERTIES:
+:ID:       287af4dc-81a9-4335-891d-49f67f683ef1
+:END:
+The *secondary structure* of a protein is are local three-dimensional interactions of a protein that occur between neighboring amino acid. These structures are formed by hydrogen bond interactions between amino acids. Two common secondary structures are the \alpha-helix and \beta-pleated sheets.
+
+[[attachment:_20220615_142509screenshot.png]]
+
+******* \alpha-Helices
+The *\alpha-helix* are coil-shaped structures where the peptide chain rotates clockwise about a central axis. Each turn around the central axis is around four amino acid residues long, with the amine hydrogen of one residue forming a hydrogen bond with the oxygen of a carbonyl oxygen of a residue on an adjacent helix turn.
+
+One notable quirk in the structure of the \alpha-helix is kinks caused by prolines in the helix. This kink is caused by its rigid cyclic amine. These kinks are rare, but when they do occur they tend to be found in helices that crross the cell membrane.
+******* \beta-Pleated Sheets
+*\beta-pleated sheets* are sheet-like structures that occur when a chain of amino acid residues are parallel or antiparallel to another chain. This structure is maintained by hydrogen bonds formed between amine hydrogens and carboxy oxygens on opposite sides of the sheet. The R groups of the amino acids are orthogonal to the plane the sheets span.
+
+****** Tertiary Structure of Proteins
+The *tertiary structure* of a protein describes a protein's overall three dimensional shape. This structure arises out of interaction of R groups across a distance.
+
+Hydrophobic interactions mainly contribute to the formation of the tertiary structure (See [[Hydrophobic interaction]])
+
+Like with secondary structure, hydrogen bonds also affect tertiary structure, but this time between amino acid residues far from one another instead of near one another and between their R groups.
+
+Acidic and basic R groups can also form ionic bonds with one another, forming *salt bridges*.
+
+Lastly, *disulfide bridges* which are covalent bonds formed between sulfurs of thiol groups can create loops in the protein chain. These bonds form betwee cysteine amino acid residues. (See [[Sulfur Linkage]])
+****** Quaternary Structure of Proteins
+*Quaternary structure* of a protein is made up of interactions between subunits of multiple polypeptide chains. These are mainly determined by  Because many proteins are made eof only one polypeptide chain, not every protein has a quaternary structure. Notable examples of proteins with quaternary structure include hemoglobin and immunoglobulin.
+
+The benefits of a protein having a quaternary structure include
+- Increased stability from subunit interactions
+- Reduced DNA needed to encode the protein complex
+- Close proximity of catalytic sites
+- Cooperativity and allosteric effects.
+
+***** Conformational Stability
+****** Denaturing and folding
+A protein's function is derived from its structure. Therefore, the assembly and maintenance of that structure is imperative to its ability to execute its function. As described in [[Structure]], a protein's structure is derived from the intermolecular interactions of the amino acids that make up the protein. Therefore, any disruption to these intermolecular interactions can cause the protein to *denature* or unfold.
+
+Possible causes of protein denaturation include extreme temperature, pH, or salinity.
+****** Hydrophobic interaction
+The tertiary structure of a protein is mainly determined by the hydrophobic and hydrophillic interactions between the amino acids' R groups. Because proteins' environment are typically water-rich, /hydrophillic R groups aggregate to the exterior of the protein and hydrophobic R groups aggregate to the interior of the protein/.
+****** Solvation layer (entropy) :BC:
+Entropy is the main driving force behind the aggregation of hydrophobic components to the interior and hydrophillic components to the exterior a of a water-soluble molecule. A *solvation layer* forms around the solute, which in water causes the molecule to be surrounded by polar molecules. If the exterior of the protein is made of a hydrophobic layer, there are fewer possible configurations for the interior hydrophillic R groups to arrange themselves to maximize the hydrogen beonding between them and water, creating a negative change in entropy. On the other hand, keeping the hydrophillic layers on the exterior and producing more possible interfacing configurations would result in a positive change in entropy, thereby making these hydrophobic interactions more spontaneous.
+***** Separation techniques
+****** Isoelectric point
+The *isoelectric point*, the pH where a solution has a neutral charge, for an amino acid depends on its pK_{a} values. For a neutral amino acid, its isoelectric point can be calculated by finding the mean of the pK_{a} of the amine and carboxyl groups.
+
+\[\mathrm{pI} = \frac{\mathrm{pK}_\mathrm{a, NH_3} + \mathrm{pK}_\mathrm{a, COOH}}{2}\]
+
+Amino acids with a charged side chain have three pK_{a} values, so
+
+****** Electrophoresis
+*Electrophoresis* is a method of separating proteins. It works by applying an electrical field across the mixture of proteins which causes the proteins to move in accordance to their size and electric charge. Negatively charged molecules move towards the positively charged anode while positively charged molecules move to the negatively charged cathode. The *migration velocity* $v$ of the molecule is directly proportional to the electric field sterngth $E$ and net charge of the molecule $z$ and inversely proportional to the frictional coefficient $f$ which depends on mass and shape of the protein.
+\[v = \frac{Ez}{f}\]
+
+*Polyacrylamide gel* is used as a medium for medium protein electrophoresis. This gel is a porous matrix that allow proteins to move through during electrophoresis. Smaller molecules can pass through these pores more easily, allowing them to travel faster, while larger molecules move more slowly. Proteins will migrate shorter distances if they are larger, more electrically neutral, or placed in a low magnitude electric field.
+
+**** Nonenzymatic Protein Function :BIO:BC:
+***** Binding :BC:
+
+Proteins interact with other molecules through a process called *binding*. When binding occurs between a protein and its *ligand* (molecules the protein is designed to bind to), it can cause the protein to undergo a *conformational change*, causing the protein to change its shape which can cause subsequent chemical responses.
+***** Immune system
+***** Motors
+**** Enzymatic Protein Function :BIO:BC:
+***** Function of enzymes in catalyzing biological reactions
+*Enzymes* are a type of organic catalyst, molecules that speed up biological reactions. Like other catalysts, /enzymes lower reactions' activation energy and are not consumed in the chemical reaction/.
+
+How the enzyme speeds up the chemical reactions vary by the reaction it is involved with, but in general they hold their *substrate* or reactants in positions favorable to facilitate the chemical reaction or are reactants in an intermediate step of the overall reaction.
+***** Enzyme classification by reaction type
+Enzymes can be classified by the types of reactions that they catalyze.
+
+*Oxidoreductases* catalyze oxidation-reductions which involve the transfer of electrons between two molecules. Usually a cofactor is used to carry the electrons from a *reductant* that is being oxidized to an *oxidant* which is being reduced. Oxidoreductases typically have the word dehydrogenase or reductase in their name, and enzymes
+
+*Transferase* catalyze the movement of functional groups between two molecules. *Kinase* is a specific type of transferase that transfer phosphate groups between molecules (usually from ATP).
+
+*Hydrolase* catalyze the breakdown of a molecule from one molecule into multiple with the addition of water. Hydrolases are usually named after their substrate. Examples include
+- Phosphatase: removes phosphate
+- Peptidase: break down proteins
+- Nuclease: break down nucleic acids
+- Lipase: break down lipids
+
+*Lysase* catalyze the breakdown of a single reactant into multiple products without the addition of water.
+
+*Isomerase* catalyze the rearrangement of molecular bonds, typically producing isomers. Depending on their mechanism, isomerases can fall under other categories of enzyme.
+
+*Ligases* catalyze the synthesis of larger molecules from smaller ones. These reactions typically require the addition of ATP.
+
+***** Reduction of activation energy
+As catalysts, enzymes reduce a chemical reaction's *activation energy*, the amount of energy required for the chemical reaction to proceed forward. As such, /enzymes affect a reaction's kinetics (speed), not its equilibrium (results)/.
+***** Substrates and enzyme specificity
+*Substrates* are the reactants whose reactions enzymes catalyze. They interact with the substrates interacting with the enzyme's *active site*, the location of the enzyme where the substrates are held. When the enzyme and substrate are bound together, the resulting interaction is called the *enzyme-substrate complex*.
+***** Active Site Model
+The *active site model* is a model of the enzyme. The *active site* is the location on the enzyme where the substrate binds with the enzyme to undergo the chemical reaction. Under this model, how well the substrate can fit into the enzyme determines the binding affinity between the enzyme and substrate. This model is no longer the widely accepted model of the enzyme. This is also called the *lock and key model*.
+***** Induced-Fit Model
+The more widely accepted model of enzyme function is the *induced-fit model*, where the substrate's binding to the enzyme is imperfect but the enzyme and substrate adjust their shapes to maximize the binding affinity. This process is called *induced-fit* and the binding energy between each other is strongest when the enzyme-substrate complex is in its transition state.
+***** Mechanism of catalysis
+****** Cofactors
+*Cofactors* are inorganic molecules that are used to
+****** Coenzymes
+*Coenzymes* are organic molecules that
+****** Water-soluble vitamins
+***** Effects of local conditions on enzyme activity
+**** Control of Enzyme Activity :BIO:BC:
+***** Kinetics
+****** General (catalysis)
+/Enzyme catalysis velocity is primarily affected by substrate and enzyme concentration/. The more enzymes that are available to catalyze the chemical reaction, the faster the reaction will proceed, but there must also be substrate present in the environment to react. If there are more molecules of substrate than the enzymes in the environment can catalyze at a time, the enzymes have reached *saturation* and are working at their maximum velocity $v_\text{max}$. /$v_\text{max}$ is solely affected by enzyme concentration/.
+****** Michaelis-Menten
+The enzyme-substrate catalysis can be modeled as a chemical equation. Let $\ce{E}$ be unbound enzyme, $\ce{S}$ be the substrate, and $\ce{P}$ be the product. When the substrate $\ce{S}$ binds to the enzyme $\ce{E}$, the enzyme-substrate complex $\ce{ES}$ is formed. This can be expressed as
+\[\ce{E + S ->[k_1] ES}\]
+where $k_1$ is the rate constant of the forward reaction. Once the enzyme-substrate complex is formed, the enzyme and substrate could potentially dissociate, so adjusting the chemical equation,
+\[\ce{E + S <=>[k_1][k_{-1}] ES \]
+where $k_{-1}$ is the rate constant of the reverse reaction.
+Lastly, the enzyme-substrate complex could also catalyze the formation of the product $\ce{P}$ without consuming the enzyme. This leads to an additional step of the chemical reaction giving us our final equation
+\[\ce{E + S <=>[k_1][k_{-1}] ES ->[k_{\text{cat}}] E + P \]
+where $k_{\text{cat}}$ is the rate constant of the catalysis step.
+
+To simplify studying the kinetics of this chemical equation, let the following assumption be made:
+- There is no product at the beginning of the chemical reaction $[\ce{P}]_0 = 0$
+- There is only a single substrate
+- The concentration of substrates is much larger than that of enzymes $[\ce{S}] >> [\ce{E}]$
+- The velocity will be measured for a short period of time $[\ce{S}]$ is approximately constant
+- The reaction is at steady state (rate of formation of $\ce{ES}$ is the same as is deformation)
+
+The reaction's velocity is the rate at which the product $\ce{P}$ is formed. This can be expressed as:
+\[v = k_\text{cat}[\ce{ES}] \]
+Because the rate of formation of the enzyme-substrate complex is at steady state, the rate of $\ce{ES}$ formation is the same as the rate at which it dissociates and catalyzes.
+\[k_1[\ce{S}][\ce{E}] = (k_{-1} + k_\text{cat})[\ce{ES}]\]
+Solving for $[\ce{ES}]$,
+\[[\ce{ES}] = \frac{k_1 [\ce{E}][\ce{S}]}{k_{-1}+k_\text{cat}} \]
+Substituting back into the reaction velocity equation,
+\begin{align*}
+    v &= k_\text{cat}[\ce{E}{S}]\\
+    &= k_\text{cat}\frac{k_1[\ce{E}][\ce{S}]}{k_{-1} + k_\text{cat}}\\
+    &=
+\end{align*}
+****** Cooperativity
+***** Feedback regulation
+***** Inhibition
+****** Competitive
+****** Noncompetitive
+****** Mixed :BC:
+****** Uncompetitive :BC:
+***** Regulatory enzymes
+****** Allosteric enzymes
+****** Covalently modified enzymes
+****** Zymogen
+*** 1B: Transmission of genetic information from the gene of the protein
+**** Nucleic Acid Structure and Function :BIO:BC:
+***** Description
+***** Nucleotides and nucleosides
+****** Sugar phosphate backbone
+****** Pyrimiidines and Purines
+***** Deoxyribonucleic acid (DNA): double helix, Watson-Crick model of DNA structure
+***** Base pairing specificity
+***** Function in transmission of genetic information :BIO:
+***** DNA dnaturation, reannealing, hybridization
+**** DNA Replication :BIO:
+***** Mechanism of replication: separation of strands, sepcific coupling of free nuclei acids
+***** Semiconservative nature of replication
+***** Specific enzymes involved in replication
+***** Origins of replication
+***** Replicating the ends of DNA molecules
+**** Repair of DNA :BIO:
+***** Repair during replication
+***** Repair of mutations
+**** Genetic Code :BIO:
+***** Central Dogma
+***** Triplet Code
+***** Codon-anticodon relationship
+***** Degenerate codee, wobble paairing
+***** Missense, Nonsense codons
+***** Initiation, termination codons
+***** Messenger RNA (mRNA)
+**** Transcription :BIO:
+***** Transfer RNA and Ribosomal RNA
+***** Mechanism of transcription
+***** mRNA processing in eukaryotes, introns, exons
+***** Robozymes, spliceosomes, small nuclear ribonucleoproteins, small nuclear RNAs
+***** Functional and evolutionary importance of introns
+**** Translation :BIO:
+***** Roles of mRNA, tRNA, rRNA
+***** Role and structure of ribosomes
+***** Initiations, termination co-factors
+***** Post-translational modification of proteins
+**** Eukaryotic Chromosome Organization :BIO:
+***** Chromosomal proteins
+***** Single copy vs. repetitive DNA
+***** Supercoiling
+***** Herochromatin vs. euchromatin
+***** Telomeres, centromeres
+**** Control of Gene Expression in Prokaryotes :BIO:
+***** Operon Concept, Jacob-Monod Model
+***** Gene repression in bacteria
+***** Positive control in bacteria
+**** Control of Gene Expression in Eukaryotes :BIO:
+***** Transcriptional regulation
+***** DNA binding proteins, transcription factors
+***** Gene amplification and duplication
+***** Post-transcriptional control, basic concept of splicing (introns, exons)
+***** Cancer as a failure of normal cellular controls, oncogenes, tumor suppressor genes
+***** Regulation of chromatin structure
+***** DNA methylation
+***** Role of noncoding RNAs
+**** Recombinant DNA and Biotechnology :BIO:
+***** Gene cloning
+***** Restriction enzymes
+***** DNA libraries
+***** Generation of cDNA
+***** Hybridization
+***** Expressing cloned genes
+***** Polymerase chain reaction
+***** Gel electrophoresis and Southern blotting
+***** DNA sequencing
+***** Analyzing gene expression
+***** Determining gene function
+***** Stem cells
+***** Practical applications of DNA technology
+***** Safety and ethics of DNA technology
+
+*** 1C: Transmission of heritable information from generation to generation and the processes that increase genetic diversity
+
+**** Evidence that DNA is Genetic Material :BIO:
+
+**** Mendelian Concepts :BIO:
+***** Phenotype and genotype
+***** Gene
+***** Locus
+***** Allele: single and multiple
+***** Homozygosity and heterozygosity
+***** Wild-type
+***** Recessiveness
+***** Complete dominance
+***** Co-dominance
+***** Incomplete dominance, leakage, penetrance, expressivity
+***** Hybridization: viability
+***** Gene pool
+
+**** Meiosis and Other Factors Affecting Genetic Variability :BIO:
+***** Significance of meiosis
+***** Important differences between meiosis and mitosis
+***** Separation of genes
+****** Independent assortment
+****** Linkage
+****** Recombination
+******* Single crossovers
+******* Double crossovers
+******* Synaptonemal complex
+******* Tetrad
+****** Sex-linked characteristics
+****** Very few genes on Y chromosomes
+****** Sex determination
+****** Cytoplasmic/extranuclear inheritance
+***** Mutation
+****** General concept of fmutation
+****** Types of mutations
+****** Advantageous vs deleterious mutation
+****** Inborn errors of metabolism
+****** Relationship of mutagens to carcinogens
+***** Genetic drift
+***** Synapsis or crossing-over mechanism for increasing genetic diversity
+
+**** Analytic Methods :BIO:
+
+**** Evolution :BIO:
+
+*** 1D: Principles of bioenergetics and fuel molecule metabolism
+
+**** Principles of Bioenergetics :BC:GC:
+
+**** Carbohydrates :BC:OC:
+
+**** Glycolysis, Gluconeogenesis, and the Pentose Phosphate Pathway :BIO:BC:
+
+**** Citric Acid Cycle :BIO:BC
+
+**** Metabolism of Fatty Acids and Proteins :BIO:BC:
+**** Oxidative Phosphorylation :BIO:BC:
+**** Hormonal Regulation and Integration of Metabolism :BC:
+** Foundational Concept 2: Highly organized assemblies of molecules, cells, and organs interact to carry out the functions of living organisms.
+*** 2A: Assemblies of molecules, cells, and groups of cells within cellular and multicellular organisms
+**** Plasma Membrane :BIO:BC:
+**** Membrane-Bound Organelles and Defining Characteristics of Eukaryotic Cells :BIO:
+**** Cytoskeleton :BIO:
+**** Tissues Formed From Eukaryotic Cells :BIO:
+*** 2B: The structure, growth, physiology, and genetics of prokaryotes and viruses.
+**** Cell Theory :BIO:
+**** Classification and Structure of Prokaryotic Cells :BIO:
+**** Growth and Physiology of Prokaryotic Cells :BIO:
+**** Genetics of Prokaryotic Cells :BIO:
+**** Virus Structure :BIO:
+**** Viral Life Cycle :BIO:
+
+*** 2C: Processes of cell division, differentiation, and specialization
+**** Mitosis :BIO:
+**** Biosignaling :BC:
+**** Reproductive System :BIO:
+**** Embryogenesis :BIO:
+**** Mechanisms of Development :BIO:
+
+** Foundational Concept 3: Complex systems of tissues and organs sense the internal and external environments of multicellular organisms and, through integrated functioning, maintain a stable internal environment.
+
+*** 3A: Structure and functions of the nervous and endocrine systems and ways these systems coordinate the organ systems
+**** Nervous System: Structure and Function :BIO:
+**** Nerve Cell :BIO:
+**** Biosignaling :BC:
+**** Lipids :BC:OC:
+**** Endocrine System: Hormones and Their Sources :BIO:
+**** Endocrine System: Mechanisms of Hormone Action :BIO:
+
+*** 3B: Structure and integrative functions of the main organ systems
+**** Respiratory System :BIO:
+**** Circulatory System :BIO:
+**** Lymphatic System :BIO:
+**** Immune System :BIO:
+**** Digestive System :BIO:
+**** Excretory System :BIO:
+**** Reproductive System :BIO:
+**** Muscle System :BIO:
+**** Specialized Cell -- Muscle Cell :BIO:
+**** Skeletal System :BIO:
+**** Skin System :BIO:
+
+* Chemical and Physical Foundations of Biological Systems
+** Foundational Concept 4: Complex organisms transport materials, sense their environment, process signals, and respond to changes using processes that can be understood in terms of physical principles.
+*** 4A: Translational motion, forces, work, energy, and equilibrium in living systems
+**** Translational Motion :PHY:
+***** Units and dimension
+***** Vectors, components
+***** Vector addition
+***** Speed, velocity
+***** Acceleration
+**** Force :PHY:
+***** Newton's First law, inertia
+***** Newton's Second law
+***** Newton's Third Law
+***** Friction
+***** Center of Mass
+**** Equilibrium :PHY:
+***** Vector Analysis of Forces
+***** Torque
+**** Work :PHY:
+***** Work done by constant force
+***** Mechanical advantage
+***** Work Kinetic Energy Theorem
+***** Conservative Forces
+**** Energy of Point Object Systems :PHY:
+***** Kinetic Energy
+***** Potential Energy
+***** Conservation of Energy
+***** Power
+**** Periodic Motion :PHY:
+***** Harmonic Motion
+***** Waves
+
+*** 4B: Importance of fluids for the circulation of blood, gas movement, and gas exchange
+**** Fluids :PHYS:
+***** Density and Specific Gravity
+***** Buoyancy
+***** Hydrostatic Pressure
+****** Pascal's Law
+****** Hydrostatic Pressure
+***** Viscosity
+***** Continuity Equation
+***** Turbulence
+***** Surface Tension
+***** Bernnoulli's Equation
+***** Venturi Effect
+**** Gas Phase :GC:PHY:
+***** Absolute Temperature
+***** Pressure
+***** Ideal Gas
+***** Kinetic Molecular Theory of Gasses
+***** Nonideal Gas
+***** Partial Pressure
+***** Dalton's Law
+
+*** 4C: Electrochemistry and electrical circuits and their elements
+**** Electrostatics :PHY:
+***** Charge
+***** Insulators
+***** Coulomb's Law
+***** Electric Field
+***** Electric Potential
+**** Circuit Elements :PHY:
+***** Current
+***** Electromotive Force
+***** Resistance
+***** Capacitance
+***** Conductivity
+***** Meters
+**** Magnetism :PHY:
+***** Magnetic Field
+***** Lorentz Force
+**** Electrochemistry :GC:
+***** Electrolytic Cell
+***** Galvanic Cell
+***** Concentration Cell
+***** Battery
+*** 4D: How light and sound interact with matter
+**** Sound :PHY:
+***** Sound Production
+***** Speed of Sound
+***** Sound Intensity
+***** Attenuation
+***** Doppler Effect
+***** Pitch
+***** Resonance
+***** Ultrasound
+***** Shock Waves
+**** Light, Electromagnetic Radiation :PHY:
+***** Interference
+***** Single-Slit Diffraction
+***** Other Diffraction
+***** Light Polarization
+***** Electromagnetic Radiation
+***** Photons
+***** Color
+**** Molecular Structure and Absorption Spectra :OC:
+***** Infrared Light
+***** Visible Light
+***** Ultraviolet Light
+***** NMR Spectroscopy
+**** Geometrical Optics :PHY:
+***** Reflection
+***** Refraction
+***** Dispersion
+***** Total Internal Reflection
+***** Mirrors
+***** Lenses
+***** Lens Systems
+***** Lens Aberration
+***** Optical Instruments
+
+*** 4E: Atoms, nuclear decay, electronic structure, and atomic chemical behavior
+**** Atomic Nucleus :PHY:GC:
+***** Atomic Number and Weight
+***** Nucleus
+***** Nuclear Forces
+***** Radioactive Decay
+***** Mass Spectrometer
+***** Mass Spectroscopy
+**** Electronic Structure :PHY:GC:
+***** Quantum Number
+**** The Periodic Table -- Classification of Elements into Groups by Electronic Structure :GC:
+**** The Periodic Table -- Variations of Chemical Properties with Group and Row :GC:
+**** Stoichiometry :GC:
+***** Molecular Weight
+***** Empirical Formula
+***** Chemical Units
+***** Percent Mass
+***** Mole
+***** Density
+***** Oxidation Number
+***** Chemical Equations
+
+** Foundational Concept 5: The principles that govern chemical interactions and reactions form the basis for a broader understanding of the molecular dynamics of living systems.
+*** 5A: Unique nature of water and its solutions
+**** Acid-Base Equilibria :GC:BC:
+***** Bronsted-Lowry
+***** Water Ionization
+***** Conjugate Acid and Bases
+***** Strong Acids and Bases
+***** Weak Acids and Bases
+***** Equilibrium Constants
+***** Buffers
+**** Ions in Solutions :GC:BC:
+***** Ions
+***** Hydration
+**** Solubility :GC:
+***** Concentration
+***** Solubility Constant
+***** Common-ion Effect
+**** Titration :GC:
+***** Indicators
+***** Neutralization
+***** Titration Curves
+***** Redox Titration
+
+*** 5B: Nature of molecules and intermolecular interactions
+**** Covalent Bond :GC:
+***** Lewis Electron Dot Formula
+***** Partial Ionic Character
+***** \sigma and \pi bond
+***** Multiple Bonding
+***** Stereochemistry of Covalently bonded molecules
+**** Liquid Phase -- Intermolecular Forces :GC:
+***** Hydrogen Bonding
+***** Dipole Interactions
+***** Van der Waals' Forces (London dispersion forces)
+
+*** 5C: Separation and purification methods
+**** Separations and Purifications :OC:BC:
+
+*** 5D: Structure, function, and reactivity of biologically relevant molecules
+- [[Nucleotides and Nucleic Acids]]
+- [[Amino Acids, Peptides, Proteins]]
+- [[The Three-Dimensional Protein Structure]]
+- [[Nonenzymatic Protein Function]]
+- [[Lipids]]
+- [[Carbohydrates]]
+- [[Aldehydes and Ketones]]
+- [[Alcohols]]
+- [[Carboxylic Acids]]
+- [[Acid Derivatives (Anhydrides, Amides, Esters)]]
+- [[Phenols]]
+- [[Polycyclic and Heterocyclic Aromatic Compounds]]
+
+*** 5E: Principles of chemical thermodynamics and kinetics
+- [[Energy Changes in Chemical Reactions -- Thermochemistry, Thermodynamics]]
+- [[Rate Processes in Chemical Reactions -- Kinetics and Equilibrium]]
+
+* Psychological, Social, and Biological Foundations of Behavior
+** Foundational Concept 6: Biological, psychological, and sociocultural factors influence the ways that individuals perceive, think about, and react to the world.
+*** 6A: Sensing the environment
+**** Sensory Processing :PSY:BIO:
+**** Vision :PSY:BIO:
+**** Hearing :PSY:BIO:
+**** Other Senses :PSY:BIO:
+**** Perception :PSY:
+
+*** 6B: Making sense of the environment
+**** Attention :PSY:
+**** Cognition :PSY:
+**** Consciousness :PSY:
+**** Memory :PSY:
+**** Language :PSY:
+
+*** 6C: Responding to the world
+**** Emotion :PSY:
+**** Stress :PSY:
+
+** Foundational Concept 7: Biological, psychological, and sociocultural factors influence behavior and behavior change.
+*** 7A: Individual influences on behavior
+**** Biological Bases of Behavior :PSY:BIO:
+**** Personality :PSY:
+**** Psychological Disorders :PSY:
+**** Motivation :PSY:
+**** Attitudes :PSY:
+
+*** 7B: Social processes that influence human behavior
+**** How the Presence of Others Affects Individual Behavior :PSY:
+**** Group Decision-Making Processes :PSY:SOC:
+**** Normative and Nonnormative Behavior :SOC:
+**** Socialization :PYS:SOC:
+
+*** 7C: Attitude and behavior change
+**** Habituation and Dishabituation :PSY:
+**** Associative Learning :PSY:
+**** Observational Learning :PSY:
+**** Theories of Attitude and Behavior Change :PSY:
+
+** Foundational Concept 8: Psychological, sociocultural, and biological factors influence the way we think about ourselves and others, as well as how we interact with others.
+*** 8A: Self-identity
+**** Self-Concept, Self-Identity, and Social Identity :PSY:SOC:
+**** Formation if Identity :PSY:SOC:
+
+*** 8B: Social thinking
+**** Attributing Behavior to Persons or Situations :PSY:
+**** Prejudice and Bias :PSY:SOC:
+**** Processes Related to Stereotypes :PSY:
+
+*** 8C: Social interactions
+**** Elements of Social Interaction :PSY:SOC:
+**** Self-Presentation and Interacting with Others :PSY:SOC:
+**** Social Behavior :PSY:
+**** Discrimination :PSY:SOC:
+
+** Foundational Concept 9: Cultural and social differences influence well-being
+*** 9A: Understanding social structure
+**** Theoretical Approaches :SOC:
+**** Social Institutions :SOC:
+**** Culture :PSY:SOC:
+
+*** 9B: Demographics Characteristics and Processes
+**** Demographic Structure of Society :PSY:SOC:
+**** Demographic Shifts and Social Change :SOC:
+
+** Foundational Concept 10: Social stratification and access to resources influence well-being
+*** 10A: Social inequality
+**** Spatial Inequality :SOC:
+**** Social Class :SOC:
+**** Health Disparities :SOC:
+**** Health Care Disparities :SOC:
